@@ -1,0 +1,33 @@
+<nav class="navbar is-dark">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">Daily Tasks</a>
+
+        <button class="button navbar-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <!-- @loggedIn -->
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                <!-- {{ auth.user.username }} -->nome
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="/dashboard">Tarefas</a>
+                <a class="navbar-item" href="/logout">Logout</a>
+              </div>
+              
+            </div>
+          <!-- @else -->
+            <a class="navbar-item" href="/login">Login</a>
+            <a class="navbar-item" href="/register">Cadastre-se</a>
+          <!-- @endloggedIn -->
+        </div>
+      </div>
+    </div>
+  </nav>
