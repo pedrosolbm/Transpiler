@@ -1,0 +1,33 @@
+<div class="columns">
+    <div class="column is-4 is-offset-4">
+        <h2 class="title has-text-centered">Login</h2>
+
+        <div><!-- Aqui era um form -->
+           
+            <div class="field">
+                <label class="label">Email</label>
+
+                <div class="control">
+                    <input type="email" [(ngModel)]="usuario.email" class="input" name="email" placeholder="exemplo@email.com">
+
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Senha</label>
+
+                <div class="control">
+                    <input type="password" [(ngModel)]="usuario.senha" class="input" name="password" placeholder="senha">
+                </div>
+            </div>
+
+            <div class="field">
+               
+            </div>
+
+            <div class="control">
+                <button type="submit" class="button is-dark is-fullwidth is-uppercase" (click)="fazerLogin()">login</button>
+            </div>
+        </div>       
+    </div>
+</div>

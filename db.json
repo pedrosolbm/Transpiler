@@ -1,0 +1,28 @@
+{
+  "usuario": [
+    {
+      "id": 1,
+      "nome": "daniboy",
+      "email": "daniboy@email.com",
+      "senha": "123"
+    },
+    {
+      "id": 2,
+      "nome": "alberto",
+      "email": "betinho@angular.com",
+      "senha": "123"
+    },
+    {
+      "id": 3,
+      "nome": "guilherme",
+      "email": "gui@guigui.com",
+      "senha": "123"
+    },
+    {
+      "id": 4,
+      "nome": "pedro",
+      "email": "pedro@email.com",
+      "senha": "123"
+    }
+  ]
+}

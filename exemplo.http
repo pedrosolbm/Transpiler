@@ -1,0 +1,14 @@
+
+GET http://localhost:3000/usuario
+###
+POST http://localhost:3000/usuario
+Content-Type: application/json
+
+{
+    "id":9,
+    "nome":"alberto",
+    "email":"betinho@angular.com",
+    "senha": "123"
+}
+###
+GET http://localhost:3000/usuario?nome=alberto

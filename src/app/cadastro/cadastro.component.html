@@ -1,0 +1,40 @@
+<div class="columns">
+  <div class="column is-4 is-offset-4">
+    <h2 class="title has-text-centered">Cadastro</h2>
+
+    <div>
+
+      <div class="field">
+        <label class="label">Nome</label>
+
+        <div class="control">
+          <input type="text" class="input" name="nome" placeholder="Seu nome" value="{{ old('nome', '') }}">
+        </div>
+
+      </div>
+
+
+      <div class="field">
+        <label class="label">Email</label>
+
+        <div class="control">
+          <input type="email" class="input" name="email" placeholder="exemplo@email.com" value="{{ old('email', '') }}">
+        </div>
+
+      </div>
+
+      <div class="field">
+        <label class="label">Senha</label>
+
+        <div class="control">
+          <input type="password" class="input" name="password" placeholder="senha" value="{{ old('password', '') }}">
+        </div>
+
+      </div>
+
+      <div class="control">
+        <button type="submit" class="button is-dark is-fullwidth is-uppercase">Cadastrar</button>
+      </div>
+    </div>
+  </div>
+</div>
